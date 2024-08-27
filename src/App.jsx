@@ -10,7 +10,7 @@ const Chat = lazy(() => import("./pages/Chat"));
 
 const App = () => {
 
-  const user = true;
+  const user = false;
   return (
     <BrowserRouter>
       <Suspense fallback={<LayoutLoader/>}>
